@@ -1,0 +1,48 @@
+const dorms = [
+  {
+    id: 1,
+    name: "หอพักสบายดี",
+    distance: "500ม. จาก จุฬาลงกรณ์มหาวิทยาลัย",
+    rating: 4.8,
+    reviews: 124,
+    gender: "ชาย-หญิง",
+    price: 1500,
+    img: "/img/mmm(1).webp",
+    features: ["Wi-Fi", "แอร์", "ร้านอาหาร"],
+  },
+  {
+    id: 2,
+    name: "บ้านนักศึกษา Modern",
+    distance: "300ม. จาก มหาวิทยาลัยธรรมศาสตร์",
+    rating: 4.9,
+    reviews: 89,
+    gender: "หญิง",
+    price: 3200,
+    img: "/img/nn.jpg",
+    features: ["Wi-Fi", "ฟิตเนส"],
+  },
+  {
+    id: 3,
+    name: "หอพักใกล้รถไฟฟ้า",
+    distance: "800ม. จาก มหาวิทยาลัยเกษตรศาสตร์",
+    rating: 4.6,
+    reviews: 156,
+    gender: "ชาย",
+    price: 5800,
+    img: "/img/ww.webp",
+    features: ["Wi-Fi", "แอร์"],
+  },
+  {
+    id: 4,
+    name: "คอนโดมิเนียมสำหรับนักศึกษา",
+    distance: "1.2กม. จาก มหาวิทยาลัยมหิดล",
+    rating: 4.7,
+    reviews: 98,
+    gender: "ชาย-หญิง",
+    price: 8500,
+    img: "/img/Z.webp",
+    features: ["Wi-Fi", "ร้านอาหาร"],
+  },
+];
+
+export default dorms;

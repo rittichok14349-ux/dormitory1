@@ -1,0 +1,27 @@
+.restaurant-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 คอลัมน์เสมอ */
+  gap: 1.5rem;
+}
+
+.restaurant-card {
+  border-radius: 12px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.restaurant-image {
+  height: 200px;
+  object-fit: cover;
+}
+
+.btn-orange {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+}
+
+.btn-orange:hover {
+  background-color: #e65c00;
+  color: white;
+}

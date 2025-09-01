@@ -1,0 +1,52 @@
+.findstore-container {
+  padding: 100px;
+  max-width: 900px;
+  margin: auto;
+  font-family: 'sans-serif';
+}
+
+.findstore-container h2 {
+  margin-bottom: 20px;
+}
+
+.findstore-container input[type='text'] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.filters select,
+.filters button {
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.food-types {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.food-types button {
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.food-types button.active {
+  background-color: #4caf50;
+  color: white;
+  border-color: #4caf50;
+}
