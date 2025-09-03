@@ -7,7 +7,7 @@ import SearchRestaurants from "./pages/SearchRestaurants";
 import Footer from "./components/Footer";
 import RestaurantDetail from "./pages/RestaurantDetail";
 import CardDetail from "./pages/CardDetail";
-import RoomDetail from "./pages/Roomdetail";
+import RoomDetail from "./pages/RoomDetail";
 import ContactPage from "./pages/ContactPage"; // นำเข้าคอมโพเนนต์ ContactPage
 import DormSearchPage from './components/DormSearchPage';
 import FindDorms from "./pages/FindDorms";
@@ -71,9 +71,9 @@ const App = () => {
         <Route path="/contact" element={<ContactPage />} /> {/* เพิ่มตรงนี้ */}
         <Route path="/restaurant/:id" element={<CardDetail />} />
         <Route path="/restaurant/:id" element={<RestaurantDetail />} />
-        <Route path="/roomdetail" element={<Roombetail />} />
-           <Route path="/finddorms" element={<FindDorms />} />
-           <Route path="/room" element={<Room />} />
+        <Route path="/roomDetail" element={<RoomDetail />} />
+        <Route path="/finddorms" element={<FindDorms />} />
+        <Route path="/room" element={<Room />} />
       </Routes>
       <Footer />
     </Router>
