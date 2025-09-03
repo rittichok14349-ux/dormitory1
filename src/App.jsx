@@ -7,7 +7,7 @@ import SearchRestaurants from "./pages/SearchRestaurants";
 import Footer from "./components/Footer";
 import RestaurantDetail from "./pages/RestaurantDetail";
 import CardDetail from "./pages/CardDetail";
-import RoomDetail from "./pages/RoomDetail";
+import RoomDetail from "./pages/as";
 import ContactPage from "./pages/ContactPage"; // นำเข้าคอมโพเนนต์ ContactPage
 import DormSearchPage from './components/DormSearchPage';
 import FindDorms from "./pages/FindDorms";
