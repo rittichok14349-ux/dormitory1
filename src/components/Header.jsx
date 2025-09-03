@@ -25,7 +25,7 @@ const Header = ({ onHomeClick, onFindStoreClick }) => {
               </Link>
             </button>
           <button onClick={onFindStoreClick} className="hover:text-blue-600">
-            <Link to="/*">
+            <Link to="/finddorms">
             ค้นหาหอพัก
             </Link>
           </button>

@@ -7,9 +7,11 @@ import SearchRestaurants from "./pages/SearchRestaurants";
 import Footer from "./components/Footer";
 import RestaurantDetail from "./pages/RestaurantDetail";
 import CardDetail from "./pages/CardDetail";
-import RoomDetail from "./pages/roomdetail";
+import RoomDetail from "./pages/Roomdetail";
 import ContactPage from "./pages/ContactPage"; // นำเข้าคอมโพเนนต์ ContactPage
-
+import DormSearchPage from './components/DormSearchPage';
+import FindDorms from "./pages/FindDorms";
+import RoomDetail2 from "./pages/RoomDetail2";
 const App = () => {
   const homeRef = useRef(null);
   const findStoreRef = useRef(null);
@@ -23,9 +25,10 @@ const App = () => {
   };
 
   return (
+    
     <Router>
       <Header onHomeClick={scrollToHome} onFindStoreClick={scrollToFindStore} />
-
+      
       <Routes>
         {/* หน้าแรก */}
         
@@ -69,6 +72,8 @@ const App = () => {
         <Route path="/restaurant/:id" element={<CardDetail />} />
         <Route path="/restaurant/:id" element={<RestaurantDetail />} />
         <Route path="/roomdetail" element={<RoomDetail />} />
+           <Route path="/finddorms" element={<FindDorms />} />
+           <Route path="/roomdetail2" element={<RoomDetail2 />} />
       </Routes>
       <Footer />
     </Router>
