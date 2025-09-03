@@ -17,7 +17,7 @@ const Footer = () => {
 
         {/* คอลัมน์ 2 - ลิงก์ด่วน */}
         <div>
-          <h4 className="text-lg font-semibold mb-3">ลิงก์ด่วน</h4>
+          <h4 className="text-lg font-semibold mb-3">ลิงก์ด่วนพิเศษ</h4>
           <ul className="space-y-2 text-sm">
             <li><a href="/" className="hover:underline">หน้าแรก</a></li>
             <li><a href="/search" className="hover:underline">ค้นหาหอพัก</a></li>
