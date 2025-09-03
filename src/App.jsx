@@ -11,7 +11,7 @@ import RoomDetail from "./pages/Roomdetail";
 import ContactPage from "./pages/ContactPage"; // นำเข้าคอมโพเนนต์ ContactPage
 import DormSearchPage from './components/DormSearchPage';
 import FindDorms from "./pages/FindDorms";
-import RoomDetail2 from "./pages/RoomDetail2";
+import Room from "./pages/Room";
 const App = () => {
   const homeRef = useRef(null);
   const findStoreRef = useRef(null);
@@ -73,7 +73,7 @@ const App = () => {
         <Route path="/restaurant/:id" element={<RestaurantDetail />} />
         <Route path="/roomdetail" element={<Roombetail />} />
            <Route path="/finddorms" element={<FindDorms />} />
-           <Route path="/roomdetail2" element={<RoomDetail2 />} />
+           <Route path="/room" element={<Room />} />
       </Routes>
       <Footer />
     </Router>
