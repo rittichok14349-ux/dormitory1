@@ -71,7 +71,7 @@ const App = () => {
         <Route path="/contact" element={<ContactPage />} /> {/* เพิ่มตรงนี้ */}
         <Route path="/restaurant/:id" element={<CardDetail />} />
         <Route path="/restaurant/:id" element={<RestaurantDetail />} />
-        <Route path="/roomdetail" element={<RoomDetail />} />
+        <Route path="/roomdetail" element={<Roombetail />} />
            <Route path="/finddorms" element={<FindDorms />} />
            <Route path="/roomdetail2" element={<RoomDetail2 />} />
       </Routes>
